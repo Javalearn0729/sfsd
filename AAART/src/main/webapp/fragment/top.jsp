@@ -31,7 +31,7 @@
             </li>                    
             <li id="" class="nav">
                 <c:if test="${ funcName != 'ASP' }">
-					<a href="<c:url value='' />">找商店</a>
+					<a href="<c:url value='/_03_CultureAndCreativeShops_CMS/CultureAndCreativeShops_Index.jsp' />">找商店</a>
               	</c:if>
 			  	<c:if test="${ funcName == 'ASP' }"> 
                 	找商店
